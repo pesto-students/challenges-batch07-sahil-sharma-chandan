@@ -1,5 +1,5 @@
 function removeFalsyValues(array) {
-  for (let i = 0; i < array.length;) {
+    for (let i = 0; i < array.length;) {
     const currentItem = array[i];
     if (!currentItem) {
       array.splice(i, 1);
